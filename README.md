@@ -1,25 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+rails app
 
-Things you may want to cover:
+heroku complilation is not finished currently having css conflicts on button colors and page styling.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+need to fix dropdown menus and other things of sort.
 # Coffee-preproduction
