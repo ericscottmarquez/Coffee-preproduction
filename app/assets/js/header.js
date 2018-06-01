@@ -4,15 +4,19 @@ var Messenger = function(el){
   var m = this;
   
   m.init = function(){
-    m.codeletters = "&#*+%?£@§$";
+    m.codeletters = "&!#*+!%?£@§!$";
     m.message = 0;
     m.current_length = 0;
     m.fadeBuffer = false;
     m.messages = [
-      'Coffee is for closers',
-      'Coffee CRM helps you close more deals',
-      'Automation. Reminders. Pipeline.',
-      'pour one up.'
+
+      'Coffee is for closers.',
+      'Close More Deals With Coffee CRM',
+      'Automation.',
+      'Smart Reminders.',
+      'Crush the competition',
+      'pour one up amigo.'
+
     ];
     
     setTimeout(m.animateIn, 100);
@@ -37,9 +41,9 @@ var Messenger = function(el){
       var message = m.generateRandomString(m.current_length);
       $(el).html(message);
       
-      setTimeout(m.animateIn, 20);
+      setTimeout(m.animateIn, 30);
     } else { 
-      setTimeout(m.animateFadeBuffer, 20);
+      setTimeout(m.animateFadeBuffer, 30);
     }
   };
   
@@ -70,7 +74,7 @@ var Messenger = function(el){
     if(do_cycles === true){
       setTimeout(m.animateFadeBuffer, 50);
     } else {
-      setTimeout(m.cycleText, 2000);
+      setTimeout(m.cycleText, 1400);
     }
   };
   
@@ -84,7 +88,7 @@ var Messenger = function(el){
     m.fadeBuffer = false;
     $(el).html('');
     
-    setTimeout(m.animateIn, 200);
+    setTimeout(m.animateIn, 500);
   };
   
   m.init();

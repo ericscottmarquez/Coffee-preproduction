@@ -60,10 +60,10 @@ p {
       padding: 45px 0; } }
 
 .light-bg {
-  background: #f3f4f7; }
+  background: #fcfcfc; }
 
 .dark-bg {
-  background: #252a33; }
+  background: #fcfcfc; }
 
 /* ==============================================================
    HEADER
@@ -83,7 +83,7 @@ p {
   padding: .5rem 0; }
 
 .navbar-brand {
-  font-size: 31px; }
+  font-size: 20px; }
 
 .navbar-light .navbar-brand {
   color: #e7e7e7; }
@@ -128,7 +128,8 @@ p {
   height: 70px; }
 
 .is-sticky {
-  opacity: 1; }
+  opacity: 1;
+  }
 
 .transition {
   -webkit-transition: all 1s ease-in-out;
@@ -146,7 +147,7 @@ p {
   @media (max-width: 992px) {
     .fixed {
       border: none;
-      background: #252a33; } }
+      background: transparent; } }
 
 .dropdown-menu {
   background: #030303; }
@@ -323,6 +324,22 @@ p {
     margin: 0 auto;
 }
 
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 52.7%;
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
 
 .featured-place-wrap {
   background: #fff;
@@ -332,11 +349,11 @@ p {
   transition: all 0.2s ease;
   position: relative; }
   .featured-place-wrap:hover {
-    -webkit-transform: translateY(-20px);
-    -ms-transform: translateY(-20px);
-    transform: translateY(-20px);
-    -webkit-box-shadow: 0px 5px 40px 0 rgba(55, 55, 55, 0.3);
-    box-shadow: 0px 5px 40px 0 rgba(55, 55, 55, 0.3); }
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+    -webkit-box-shadow: 0px 15px 40px 0 rgba(55, 55, 55, 0.9);
+    box-shadow: 0px 15px 40px 0 rgba(55, 55, 55, 0.9); }
   .featured-place-wrap a {
     display: block;
     text-decoration: none;
@@ -377,7 +394,7 @@ p {
     text-overflow: ellipsis;
     margin-bottom: 5px; }
   .featured-title-box p {
-    color: #9fa9b9;
+    color: #777777;
     display: inline-block;
     margin: 0; }
     @media (max-width: 320px) {
@@ -1114,11 +1131,11 @@ p {
 }
 
 .light-bg {
-    background: #f3f4f7;
+    background: #fcfcfc;
 }
 
 .dark-bg {
-    background: #252a33;
+    background: #fcfcfc;
 }
 
 
@@ -1147,7 +1164,7 @@ p {
 }
 
 .navbar-brand {
-    font-size: 31px;
+    font-size: 20px;
 }
 
 .navbar-light .navbar-brand {
@@ -1221,7 +1238,7 @@ p {
     z-index: 1;
     @media (max-width: 992px) {
         border: none;
-        background: #252a33
+        background: transparent;
     }
 }
 
@@ -1397,7 +1414,7 @@ p {
 
 
 /* ==============================================================
-   FEATURED PLACES
+   FEATURED PLACES SAME TRANSFORMS AS OTHER PART HERE
    ============================================================== */
 
 .featured-place-wrap {
@@ -1407,7 +1424,7 @@ p {
     position: relative;
     &:hover {
         transform: translateY(-2px);
-        box-shadow: 0px 3px 40px 0 rgba(206, 205, 205, 0.3);
+        box-shadow: 0px 10px 40px 0 rgba(55, 55, 55, 0.9);
     }
     a {
         display: block;
@@ -1455,7 +1472,7 @@ p {
         margin-bottom: 5px;
     }
     p {
-        color: #9fa9b9;
+        color: #777777;
         display: inline-block;
         margin: 0;
         @media (max-width: 320px) {
