@@ -456,6 +456,8 @@ p {
     .featured-btn-wrap {
       margin: 3px 0 0; } }
   .featured-btn-wrap .btn-danger {
+    font-size: 15px;
+    font-weight: 300;
     float: none;
     margin: 0 auto;
     background: #00cc00;
@@ -464,7 +466,7 @@ p {
     -o-transition: 0.3s;
     transition: 0.3s;
     border: 0; }
-    @media (max-width: 576px) {
+    @media (max-width: 800px) {
       .featured-btn-wrap .btn-danger {
         float: none;
         margin: 0 auto;
@@ -1546,6 +1548,8 @@ p {
         margin: 3px 0 0;
     }
     .btn-danger {
+      font-size: 15px;
+      font-weight: 300;
         float: none;
         margin: 0 auto;
         background: #ffe419;
