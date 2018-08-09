@@ -3,9 +3,12 @@ Theme Name: Listing & Directory Website Template
 Version: 1.0
 Author: Surjith S M
 -------------------------------------------------------------------*/
+
 /* ==============================================================
    GLOBAL STYLES
    ============================================================== */
+
+
 body {
   font-family: 'Roboto', sans-serif; }
 
@@ -89,7 +92,7 @@ p {
   color: #e7e7e7; }
 
   .navbar-light .navbar-brand:hover {
-    color: #2196f3; }
+    color: #171615; }
 
 .navbar-light .navbar-nav .show > .nav-link {
   color: #e7e7e7; }
@@ -98,7 +101,7 @@ p {
   color: #e7e7e7; }
 
     .navbar-light .navbar-brand:hover {
-    color: #2196f3; }
+    color: #171615; }
 
 .navbar-light .navbar-nav .nav-link {
   font-size: 16px;
@@ -106,7 +109,7 @@ p {
   color: #e7e7e7; }
 
   .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-    color: #2196f3;
+    color: #171615;
     outline: none; }
 
 .navbar-light .navbar-toggler {
@@ -115,13 +118,13 @@ p {
 
 @media (max-width: 992px) {
   .navbar-nav {
-    padding: 7px 20px; } }
+    padding: 0px 0px; } }
 
 .nav-item {
   margin: 0 20px 0 0; }
   .nav-item span {
     font-size: 10px;
-    margin: 0 0 0 4px; }
+    margin: 0 0 0 50px; }
 
 .bg {
   width: 100%;
@@ -138,7 +141,7 @@ p {
   transition: all 1s ease-in-out; }
 
 .fixed {
-  border-bottom: 1px solid #636363;
+  border-bottom: 1px solid #00aced;
   position: fixed;
   top: 0;
   left: 0;
@@ -175,22 +178,7 @@ p {
     .slider {
       min-height: 700px; } }
 
-.btn-outline-light {
-  padding: 10px 16px; }
-  @media (max-width: 992px) {
-    .btn-outline-light {
-      width: 25%; } }
-  @media (max-width: 768px) {
-    .btn-outline-light {
-      width: 30%; } }
-  @media (max-width: 576px) {
-    .btn-outline-light {
-      width: 40%; } }
-  @media (max-width: 480px) {
-    .btn-outline-light {
-      width: 100%; } }
-  .btn-outline-light:hover {
-    color: #000; }
+
 
 .slider-title_box {
   color: #fff;
@@ -1145,84 +1133,16 @@ p {
    HEADER
    ============================================================== */
 
+/* CHANGE HEADER COLOR here foo ! 
 
-// Navbar
-.nav-menu {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    left: 0;
-    margin: 0 auto;
-    // border-bottom: 1px solid #636363;
-}
+radial-gradient(rgba(0, 172, 237, 1), rgba(254, 252, 245, .3))
 
-.nav-menu-2 {
-    position: inherit;
-}
-
-.navbar {
-    padding: .5rem 0;
-}
-
-.navbar-brand {
-    font-size: 20px;
-}
-
-.navbar-light .navbar-brand {
-    color: #fff;
-    &:hover {
-        color: #fff;
-    }
-}
-
-.navbar-light .navbar-nav .show>.nav-link {
-    color: #fff;
-}
-
-.navbar-light .navbar-nav .active>.nav-link {
-    color: #fff;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    font-size: 16px;
-    font-weight: 300;
-    color: #fff;
-    &:hover,
-    &:focus {
-        color: #fff;
-        outline: none;
-    }
-}
-
-.navbar-light .navbar-toggler {
-    color: #fff;
-    border-color: #fff;
-}
-
-.navbar-nav {
-    @media (max-width: 992px) {
-        padding: 7px 20px;
-    }
-}
-
-.nav-item {
-    margin: 0 20px 0 0;
-    span {
-        font-size: 10px;
-        margin: 0 0 0 4px;
-    }
-}
-
-.bg {
-    width: 100%;
-    height: 70px;
-}
+*/
 
 .is-sticky {
-    background: radial-gradient(rgba(70,70,70,.5), rgba(222,222,222,.5));
-
+    background: #55ACEE;
 }
+
 
 .transition {
     -webkit-transition: all 1s ease-in-out;
@@ -1257,25 +1177,6 @@ p {
     .slider {
       min-height: 700px; } }
 
-
-.btn-outline-light {
-    padding: 10px 16px;
-    @media (max-width: 992px) {
-        width: 25%;
-    }
-    @media (max-width: 768px) {
-        width: 30%;
-    }
-    @media (max-width: 576px) {
-        width: 40%;
-    }
-    @media (max-width: 480px) {
-        width: 100%;
-    }
-    &:hover {
-        color: #000;
-    }
-}
 
 .slider-title_box {
     text-align: center;

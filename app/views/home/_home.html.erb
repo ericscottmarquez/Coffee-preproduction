@@ -21,7 +21,8 @@
 	<%= stylesheet_link_tag "set2.css", media: 'all', 'data-turbolinks-track' => true %>
 	<%= stylesheet_link_tag "simple-line-icons.css", media: 'all', 'data-turbolinks-track' => true %>
 	<%= stylesheet_link_tag "style.css", media: 'all', 'data-turbolinks-track' => true %>
-	<%= stylesheet_link_tag "swiper.min.css", media: 'all', 'data-turbolinks-track' => true %>
+    <%= stylesheet_link_tag "swiper.min.css", media: 'all', 'data-turbolinks-track' => true %>
+	<%= stylesheet_link_tag "emailsignup.css", media: 'all', 'data-turbolinks-track' => true %>
 
 
 
@@ -71,60 +72,32 @@
 
 
 
+</span>
+
+</button>
+
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
 
 
 
-                </span>
 
 
-              </button>
-                            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                     About
-                     <span class=""></span>
-                   </a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                            <a class="dropdown-item" href="{% url 'listing' %}">DETAIL VIEW</a>
-                                            <a class="dropdown-item" href="#">Another action</a>
-                                            <a class="dropdown-item" href="#">Something else here</a>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    What is a CRM?
-                    <span class=""></span>
-                  </a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                            <a class="dropdown-item" href="#">Action</a>
-                                            <a class="dropdown-item" href="#">Another action</a>
-                                            <a class="dropdown-item" href="#">Something else here</a>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Close More Deals
-                    <span class=""></span>
-                  </a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                            <a class="dropdown-item" href="#">Action</a>
-                                            <a class="dropdown-item" href="#">Another action</a>
-                                            <a class="dropdown-item" href="#">Something else here</a>
-                                        </div>
-                                    </li>
 
-                                    <li>
-                                    <%= link_to 'Get Coffee CRM', new_user_registration_path, class: 'btn btn-outline-light top-btn' %>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
+
+        <li>
+        <%= link_to 'Get Coffee CRM', new_user_registration_path, class: 'btn btn-outline-light top-btn' %>
+        </li>
+
+            </ul>
         </div>
-    </div>
+    </nav>
+</div>
+
+</div>
+</div>
+
 
 
 
@@ -152,7 +125,9 @@
                             <div class="col-md-10">
 
                                 <div class="slider-link">
+
                                     <a href="#">Learn How</a><span>  </span> <a href="#"></a>
+
                                 </div>
                             </div>
                         </div>
@@ -178,7 +153,6 @@
                 </div>
             </div>
 
-
             <div class="row">
                 <div class="col-md-4">
                     <div class="find-place-img_wrap">
@@ -187,13 +161,12 @@
                                 <img src="/images/coffeesun.jpeg" class="img-fluid" alt="img13" />
                                 <figcaption>
                                     <h5>Close More Deals</h5>
-                                    <p>Never miss a follow up again. Organize your sales pipeline with a powerful yet clean and simple User Interface </p>
+                                    <p>Never miss a follow up again. Organize your sales pipeline with a powerful yet clean User Interface </p>
                                 </figcaption>
                             </figure>
                         </div>
                     </div>
                 </div>
-
 
                 <div class="col-md-4">
                     <div class="find-place-img_wrap">
@@ -204,9 +177,9 @@
                                     <h5>Features</h5>
 
                                     <p>Automated Emailing
-                                    <br>Smart-Tiered Contact Lists to organize your life
+                                    <br>Smart-Tiered Contact Lists
                                     <br>Email Templating and Reminders
-                                    <br>Data Scraping
+                                    <br>Data Scraping For Leads
                                     <br>Google Voice Integration
                                     <br>Expense reports, and more
                                     </p>
@@ -233,6 +206,90 @@
                 </div>
 
     </section>
+
+
+
+
+
+
+<!--
+
+    <section class="main-block dark-bg">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <div class="styled-heading">
+                        <h5> Why use a CRM? </h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                    <div class="find-place-img_wrap">
+                        <div class="grid">
+                            <figure class="effect-ruby">
+                                <img src="/images/coffeesun.jpeg" class="img-fluid" alt="img13" />
+                                <figcaption>
+                                    <h5>Close More Deals</h5>
+                                    <p>Never miss a follow up again. Organize your sales pipeline with a powerful yet clean and simple User Interface </p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="row justify-content-center">
+
+                    <div class="find-place-img_wrap">
+                        <div class="grid">
+                            <figure class="effect-ruby">
+                                <img src="/images/coffeelaptop.jpeg" class="img-fluid" alt="img13" />
+                                <figcaption >
+                                    <h5>Features</h5>
+
+                                    <p>Automated Emailing
+                                    <br>Smart-Tiered Contact Lists to organize your life
+                                    <br>Email Templating and Reminders
+                                    <br>Data Scraping
+                                    <br>Google Voice Integration
+                                    <br>Expense reports, and more
+                                    </p>
+
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+
+            <div class="row justify-content-center">
+
+                    <div class="find-place-img_wrap">
+                        <div class="grid">
+                            <figure class="effect-ruby">
+                                <img src="/images/1coffee.jpeg" class="img-fluid" alt="img13" />
+                                <figcaption>
+                                    <h5>Coffee CRM web-app is going live soon.</h5>
+                                    <p>Click here to get to the front of the line</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+    </section>
+
+
+
+-->
+
+
+
+
+
+
+
+
     <!--//END FIND PLACES -->
     <!--============================= FEATURED PLACES =============================-->
 
@@ -253,7 +310,6 @@
                             We're in the business of helping you win, so for a limited time, we're
                             giving it to you for free with hopes that you'll come back
                             when we're live.
-                            
 
                          </h5>
                     </div>
@@ -297,7 +353,7 @@
                     </div>
                 </div>
             </div>
-
+<!--
 
         <div class="col-md-4 featured-responsive">
             <div class="form-group">
@@ -308,9 +364,6 @@
             </div>
         </div>
 
-
-
-
         <div class="col-md-4 featured-responsive">
             <div class="form-group">
             <h5>Email</h5>
@@ -320,18 +373,23 @@
             </div>
         </div>
 
+-->
 
-
-
-
+        <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-4">
-                <div class="featured-btn-wrap">
-                    <a href="#" class="btn btn-danger">Send Me The E-book<br> + <br>Get First Access To<br>CoffeeCRM</a>
-                </div>
+                
+                    <div class="subscribe subscribe-1">
+                    <a href="#" class="subscribe__toggle" id="toggle">Sign up for the Beta</a>
+                    <span class="subscribe__success">You're all set, check your email.</span>
+                    <div class="subscribe__wrapper">
+                    <input type="text" />
+                    <button id="submit">Sign Up</button>
+                    </div>
+                    </div>
             </div>
         </div>
-
+    </div>
 
 
 
@@ -632,7 +690,7 @@
     <!--//END FOOTER -->
 
     <!-- jQuery, Bootstrap JS. -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS , header messenger JS scramble effect in header.js -->
 <%= javascript_include_tag "jquery-3.2.1.min.js" %>
 <%= javascript_include_tag "jquery.magnific-popup.js" %>
 <%= javascript_include_tag "popper.min.js" %>
@@ -640,6 +698,7 @@
 <%= javascript_include_tag "bootstrap.js" %>
 <%= javascript_include_tag "bootstrap.min.js" %>
 <%= javascript_include_tag "header.js" %>
+<%= javascript_include_tag "emailsignup.js" %>
 
 
     <script>

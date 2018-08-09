@@ -9,6 +9,7 @@
 }
 
 /* Common style */
+/* THIS CHANGES THE GRIDFIGURE BG COLOR */
 .grid figure {
 	position: relative;
 	float: left;
@@ -16,7 +17,7 @@
 	margin: 0;
 	width: 100%;
 	height: auto;
-	background: #3085a3;
+	background: #00aced;
 	text-align: center;
 	cursor: pointer;
 }

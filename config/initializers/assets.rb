@@ -16,7 +16,7 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 Rails.application.config.assets.precompile += %w( bootstrap.min.css demo.css font-awesome.min.css
 magnific-popup.css set1.css set2.css simple-line-icons.css style.css swiper.min.css themify-icons.css 
 bootstrap.js bootstrap.min.js jquery-3.2.1.min.js 
-jquery.magnific-popup.js popper.min.js swiper.min.js style.scss style.css.map header.js header.scss )
+jquery.magnific-popup.js popper.min.js swiper.min.js style.scss style.css.map header.js header.scss emailsignup.js emailsignup.css)
 
 
 

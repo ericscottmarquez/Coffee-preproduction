@@ -10,7 +10,9 @@ class HomeController < ApplicationController
   		@projects = Project.all.order("created_at DESC")
 
   	else
+
   		render layout: false
+      
   	end
 
   	@activities = PublicActivity::Activity.order("created_at DESC").where(owner_id: current_user, owner_type: "User")
