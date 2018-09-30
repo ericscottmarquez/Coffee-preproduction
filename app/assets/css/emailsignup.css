@@ -1,12 +1,3 @@
-html {
-  box-sizing: border-box;
-  font-size: 100%;
-  font-family: Arial;
-}
-
-* {
-  box-sizing: inherit;
-}
 
 .subscribe-1 {
   position: absolute;
@@ -25,7 +16,7 @@ html {
 }
 .subscribe-1__active {
   width: 31.25em;
-  border: 3px solid #358ecc;
+  border: 3px solid #007fff;
 }
 .subscribe-1__success {
   border: 3px solid #4cce95;
@@ -45,14 +36,14 @@ html {
   flex-grow: 1;
   border: 0;
   border-radius: 4px;
-  background: #2a72a4;
+  background: #007fff;
   color: #fff;
   cursor: pointer;
   font-size: 1em;
   transition: background 0.2s ease;
 }
 .subscribe-1 button:hover {
-  background: #358ecc;
+  background: #004fff;
 }
 
 .subscribe__wrapper {
@@ -66,7 +57,7 @@ html {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #2a72a4;
+  background: #007fff;
   text-align: center;
   text-decoration: none;
   color: #fff;
@@ -80,7 +71,8 @@ html {
   pointer-events: none;
 }
 .subscribe__toggle:hover {
-  background: #358ecc;
+  background: #006fff;
+  color: #fff;
 }
 
 .subscribe__success {

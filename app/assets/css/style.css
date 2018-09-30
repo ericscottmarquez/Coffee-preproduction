@@ -89,31 +89,51 @@ p {
   font-size: 20px; }
 
 .navbar-light .navbar-brand {
-  color: #e7e7e7; }
+  color: #fff; }
 
   .navbar-light .navbar-brand:hover {
-    color: #171615; }
+    color: #007fff; }
 
 .navbar-light .navbar-nav .show > .nav-link {
-  color: #e7e7e7; }
+  color: #fff; }
 
 .navbar-light .navbar-nav .active > .nav-link {
-  color: #e7e7e7; }
+  color: #fff; }
 
     .navbar-light .navbar-brand:hover {
-    color: #171615; }
+    color: #007fff; }
+/* ==============================================================
+BRAND SITE TITLE COLOR - ABOVE  this IS THE HOVER COLOR and title color 
+   ============================================================== */
 
 .navbar-light .navbar-nav .nav-link {
   font-size: 16px;
   font-weight: 300;
-  color: #e7e7e7; }
+  color: #fff; }
+
+  .dropdown-menu {
+  background: #030303; }
+
+.dropdown-item {
+  color: #aaaaaa;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s; }
+  .dropdown-item:hover {
+    color: #fff;
+    background: none; }
+
+    .filter-dropdown {
+  display: inline-block; }
+  .filter-dropdown select {
+    border-radius: 0; }
 
   .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-    color: #171615;
+    color: #007fff;
     outline: none; }
 
 .navbar-light .navbar-toggler {
-  color: #e7e7e7;
+  color: rgb(0,0,0,0.9);
   border-color: #fff; }
 
 @media (max-width: 992px) {
@@ -153,7 +173,7 @@ p {
       background: transparent; } }
 
 .dropdown-menu {
-  background: #030303; }
+  background: #000; }
 
 .dropdown-item {
   color: #aaaaaa;
@@ -433,7 +453,7 @@ p {
 
 .open-now {
   color: #46cd38;
-  font-size: 13px;
+  font-size: 15px;
   display: block;
   font-weight: 400;
   display: inline-block; }
@@ -1044,6 +1064,26 @@ footer {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*# sourceMappingURL=style.css.map */
 
 /*------------------------------------------------------------------
@@ -1140,7 +1180,7 @@ radial-gradient(rgba(0, 172, 237, 1), rgba(254, 252, 245, .3))
 */
 
 .is-sticky {
-    background: #55ACEE;
+    background: #007fff;
 }
 
 
@@ -1435,25 +1475,24 @@ radial-gradient(rgba(0, 172, 237, 1), rgba(254, 252, 245, .3))
     display: inline-block;
 }
 
-.open-now {
-    color: #46cd38;
-    font-size: 13px;
-    display: block;
-    font-weight: 400;
-    display: inline-block;
-}
 
 .featured-btn-wrap {
     text-align: center;
     @media (max-width: 1200px) {
         margin: 3px 0 0;
     }
+
+
+/* ==============================================================
+   HERES THE "USE COFFEE" BUTTON 
+   ============================================================== */
+
     .btn-danger {
       font-size: 15px;
       font-weight: 300;
         float: none;
         margin: 0 auto;
-        background: #ffe419;
+        background: #007fff;
         padding: 16px 50px;
         transition: 0.3s;
         border: 0;
@@ -1468,6 +1507,42 @@ radial-gradient(rgba(0, 172, 237, 1), rgba(254, 252, 245, .3))
         }
     }
 }
+
+/* ==============================================================
+   HERES THE "GET COFFEE CRM" BUTTON 
+   ============================================================== */
+
+  .btn-outline-light {
+    font-size: 15px;
+    font-weight: 300;
+      float: none;
+      margin: 0 auto;
+      background: #007fff;
+      padding: 16px 50px;
+      transition: 0.3s;
+      border: 0;
+      @media (max-width: 576px) {
+          width: 100%;
+      }
+}
+
+  .btn-outline-light:hover {
+    font-size: 15px;
+    font-weight: 300;
+      float: none;
+      margin: 0 auto;
+      background: #fff;
+      color: #007fff;
+      padding: 16px 50px;
+      transition: 0.3s;
+      border: 0;
+      @media (max-width: 576px) {
+          width: 100%;
+      }
+}
+
+
+
 
 
 /* ==============================================================
@@ -1771,6 +1846,7 @@ footer {
         }
     }
 }
+
 
 .reserve-btn {
     display: inline-block;

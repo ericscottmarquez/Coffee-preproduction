@@ -39,25 +39,24 @@
 }
 
 .grid figure figcaption {
-	padding: 2em;
+	padding: 1em;
 	color: #fff;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
 @media (max-width: 992px) {
 	.grid figure figcaption {
-		padding: 0.7em;
+		padding: 0.3em;
 	}
 }
 
 .grid figure figcaption h5 {
 	color: #fff;
 	font-weight: 300;
-	text-align: left;
+	text-align: center;
 }
 @media (max-width: 992px) {
 	.grid figure figcaption h5 {
-
 		font-size: 20px;
 	}
 }
@@ -87,10 +86,11 @@
 .grid figure h5 {
 	word-spacing: 0em;
 	font-weight: 400;
+  bottom: 0;
 }
 
 .grid figure h5 span {
-	font-weight: 800;
+	font-weight: 700;
 }
 
 .grid figure h5,
@@ -100,8 +100,9 @@
 
 .grid figure p {
 	letter-spacing: 1px;
+  font-size: 15px;
 	font-weight: 300;
-	text-align: left;
+	text-align: center;
 	margin: 6px 0 0;
 }
 
@@ -113,6 +114,7 @@
 
 figure.effect-ruby {
 	background-color: #000;
+  text-align: center;
 }
 
 figure.effect-ruby img {
