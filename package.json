@@ -3,6 +3,7 @@
   "private": true,
   "dependencies": {
     "@rails/webpacker": "3.5",
+    "babel-preset-vue-app": "^2.0.0",
     "vue": "^2.5.16",
     "vue-loader": "14.2.2",
     "vue-resource": "^1.5.0",
@@ -10,6 +11,8 @@
     "vue-turbolinks": "^2.0.3"
   },
   "devDependencies": {
+    "express": "^4.16.4",
+    "serve-static": "^1.13.2",
     "webpack-dev-server": "2.11.2"
   }
 }
