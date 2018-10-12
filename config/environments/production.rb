@@ -70,7 +70,7 @@ Rails.application.configure do
 
   config.action_mailer.perform_caching = false
 
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  config.action_mailer.default_url_options = { :host => 'powerful-depths-31505.herokuapp.com' }
 
 
   ActionMailer::Base.smtp_settings = {
