@@ -1,3 +1,5 @@
+require 'spring/watcher'
+
 %w[
   .ruby-version
   .rbenv-vars

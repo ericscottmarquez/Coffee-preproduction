@@ -12,12 +12,19 @@
     <meta name="keywords" content="#">
     <!-- Page Title -->
     <title>CoffeeApp.io</title>
-    <!-- Bootstrap CSS -->
 
-	<%= stylesheet_link_tag "bootstrap.min.css", media: 'all', 'data-turbolinks-track' => true %>
-	<%= stylesheet_link_tag "set1.css", media: 'all', 'data-turbolinks-track' => true %>
-	<%= stylesheet_link_tag "style.css", media: 'all', 'data-turbolinks-track' => true %>
-	<%= stylesheet_link_tag "emailsignup.css", media: 'all', 'data-turbolinks-track' => true %>
+
+
+    <%= stylesheet_pack_tag 'bootstrap.min.css' %>
+    <%= stylesheet_pack_tag 'set1.css' %>
+    <%= stylesheet_pack_tag 'style.css' %>
+    <%= stylesheet_pack_tag 'emailsignup.css' %>
+
+
+	<%= stylesheet_link_tag 'bootstrap.min.css' %>
+	<%= stylesheet_link_tag 'set1.css', media: 'all', 'data-turbolinks-track' => true %>
+	<%= stylesheet_link_tag 'style.css', media: 'all', 'data-turbolinks-track' => true %>
+	<%= stylesheet_link_tag 'emailsignup.css', media: 'all', 'data-turbolinks-track' => true %>
 
 
 </head>
@@ -685,6 +692,15 @@
 
     <!-- jQuery, Bootstrap JS. -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS , header messenger JS scramble effect in header.js -->
+<%= javascript_pack_tag "jquery-3.2.1.min.js" %>
+<%= javascript_pack_tag "jquery.magnific-popup.js" %>
+<%= javascript_pack_tag "popper.min.js" %>
+<%= javascript_pack_tag "swiper.min.js" %>
+<%= javascript_pack_tag "bootstrap.js" %>
+<%= javascript_pack_tag "bootstrap.min.js" %>
+<%= javascript_pack_tag "header.js" %>
+<%= javascript_pack_tag "emailsignup.js" %>
+
 <%= javascript_include_tag "jquery-3.2.1.min.js" %>
 <%= javascript_include_tag "jquery.magnific-popup.js" %>
 <%= javascript_include_tag "popper.min.js" %>
@@ -693,7 +709,6 @@
 <%= javascript_include_tag "bootstrap.min.js" %>
 <%= javascript_include_tag "header.js" %>
 <%= javascript_include_tag "emailsignup.js" %>
-
 
     <script>
         $(window).scroll(function() {
