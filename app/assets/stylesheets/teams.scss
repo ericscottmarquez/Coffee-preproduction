@@ -47,5 +47,148 @@
     margin: 1em 0;
     width: 100%;
   }
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  font: 400 14px/1.5 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+}
+h1, h3, h4, h5, h6, figure, p {
+  margin: 0;
+  font-size: 15px;
+}
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #fff;
+}
+figure img {
+  width: 100%;
+  max-width: 100%;
+}
+iframe,
+img {
+  vertical-align: top;
+}
+/*overwrite bootstrap*/
+.btn:focus {
+  outline: none;
+}
+.has-success .input-group-addon {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #3c763d;
+}
+.has-success .form-control {
+    border-color: #3c763d;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+[v-cloak] {
+  display: none;
+}
+/*modal component style*/
+.modal-mask {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: table;
+  transition: opacity .3s ease;
+}
+.modal-enter {
+  opacity: 0;
+}
+.modal-leave-active {
+  opacity: 0;
+}
+
+#header {}
+#main {}
+#footer {}
+
+.multiple-action {
+  margin-left: 15px;
+}
+.filterbox {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1; /* Fix for IE7 */
+  *display: inline; /* Fix for IE7 */
+}
+.filterbox .dropdown-menu {
+  padding: 0;
+  left: auto;
+  right: 0;
+}
+.search {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1; /* Fix for IE7 */
+  *display: inline; /* Fix for IE7 */
+  max-width: 260px;
+}
+@media (max-width: 480px) {
+  .table-xs-block tr th {
+    display: none;
+  }
+  .table-xs-block tr {
+    display: block;
+    position: relative;
+  }
+  .table-xs-block tr td {
+    display: block;
+    text-align: left;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-right: 60px;
+  }
+  .table-xs-block tr td[data-label]:before {
+    content: attr(data-label);
+    display: inline-block;
+    font-weight: 700;
+    min-width: 50px;
+  }
+  .table-xs-block tr td:first-child,
+  .table-xs-block tr td:last-child {
+    width: 30px;
+    margin-left: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+  }
+  .table-xs-block tr td:last-child {
+    left: auto;
+    right: 0;
+    width: 60px;
+  }
 }
