@@ -1,8 +1,8 @@
 {
-  "engines": {
-    "yarn": ">= 0.25.2"
-  },
-
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+},
   "name": "projekt",
   "private": true,
   "dependencies": {
@@ -16,15 +16,11 @@
     "vue-turbolinks": "^2.0.3",
     "webpack-merge": "^4.1.4"
   },
-
   "devDependencies": {
     "express": "^4.16.4",
     "serve-static": "^1.13.2",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.9"
-  },
-  
-    "scripts": {
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production"
   }
 }
