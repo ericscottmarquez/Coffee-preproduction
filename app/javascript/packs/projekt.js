@@ -1,18 +1,9 @@
-import Vue from 'vue/dist/vue.min'
+import Vue from 'vue/dist/vue.esm'
 import TurbolinksAdapter from 'vue-turbolinks'
 import VueResource from 'vue-resource'
 
-var webpack = require('webpack')
 
-module.exports = {
-  // ...
-  plugins: [
-    // ...
-    new webpack.DefinePlugin({
-      'process.env.NODE_ENV': JSON.stringify('production')
-    })
-  ]
-}
+
 
 Vue.use(VueResource)
 
