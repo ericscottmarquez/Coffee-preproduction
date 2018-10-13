@@ -24,8 +24,3 @@
 # https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy-Report-Only
 # Rails.application.config.content_security_policy_report_only = true
 
-  if Rails.env.development?
-    policy.script_src :self, :https, :unsafe_eval
-  else
-    policy.script_src :self, :https
-  end
