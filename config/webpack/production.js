@@ -1,5 +1,3 @@
 const environment = require('./environment')
 
-module.exports = {
-  mode: 'production'
-}
+module.exports = environment.toWebpackConfig()
