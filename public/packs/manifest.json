@@ -5,27 +5,29 @@
   "hello_vue.js.map": "/packs/hello_vue-c9d0ba4df8c4cc63b9d5.js.map",
   "projekt.js": "/packs/projekt-363c28986064faf44f0c.js",
   "projekt.js.map": "/packs/projekt-363c28986064faf44f0c.js.map",
-  "bootstrap.js": "/assets/packs/bootstrap.js",
-  "bootstrap.min.css": "/assets/packs/bootstrap.min.css",
+  
+  "bootstrap.js": "/packs/bootstrap.js",
 
-  "emailsignup.css": "/assets/packs/mailsignup.css",
+  "bootstrap.min.css": "/packs/bootstrap.min.css",
 
-  "emailsignup.js": "/assets/packs/emailsignup.js",
+  "emailsignup.css": "/packs/mailsignup.css",
 
-  "header.js": "/assets/packs/header.js",
+  "emailsignup.js": "/packs/emailsignup.js",
 
-  "header.scss": "/assets/packs/header.scss",
+  "header.js": "/packs/header.js",
 
-  "jquery-3.2.1.min.js": "/assets/packs/jquery-3.2.1.min.js",
+  "header.scss": "/packs/header.scss",
 
-  "jquery.magnific-popup.js": "/assets/packs/jquery.magnific-popup.js",
+  "jquery-3.2.1.min.js": "/packs/jquery-3.2.1.min.js",
 
-  "popper.min.js": "/assets/packs/popper.min.js",
+  "jquery.magnific-popup.js": "/packs/jquery.magnific-popup.js",
 
-  "set1.css": "/assets/packs/set1.css",
+  "popper.min.js": "/packs/popper.min.js",
 
-  "style.css": "/assets/packs/style.css",
+  "set1.css": "/packs/set1.css",
 
-  "swiper.min.js": "/assets/packs/swiper.min.js"
+  "style.css": "/packs/style.css",
+
+  "swiper.min.js": "/packs/swiper.min.js"
 
 }
