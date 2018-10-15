@@ -20,3 +20,8 @@ p {
   text-align: center;
 }
 </style>
+
+const app = new Vue({
+    el: domElement,
+    render: h => h(RootComponent)
+  })

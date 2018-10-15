@@ -6,8 +6,8 @@ Vue.use(VueResource)
 
 document.addEventListener('turbolinks:load', () => {
 
-const app = new Vue(Vue.util.extend({ i18n }, App)).$mount('#ssfcrud')
-  
+
+
 var list = [
   {
     id: 1,
@@ -86,8 +86,6 @@ var list = [
 Vue.component('modal', {
   template: '#modal-template'
 });
-
-
 
 
 new Vue({

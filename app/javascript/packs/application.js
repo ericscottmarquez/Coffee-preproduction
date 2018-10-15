@@ -10,4 +10,7 @@
 console.log('Hello World from Webpacker')
 
 
-new Vue(Vue.util.extend({ i18n }, App)).$mount('#ssfcrud')
+const app = new Vue({
+    el: domElement,
+    render: h => h(RootComponent)
+  })
