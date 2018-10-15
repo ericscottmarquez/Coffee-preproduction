@@ -1,6 +1,7 @@
 import Vue from 'vue/dist/vue.min.js'
 import TurbolinksAdapter from 'vue-turbolinks'
 import VueResource from 'vue-resource'
+import App from '../app.vue'
 
 Vue.use(VueResource)
 
