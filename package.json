@@ -7,11 +7,10 @@
     "setup": "npm run installDependencies",
     "start": "webpack-dev-server --progress --open --watch --config ./production.js --mode development",
     "installDependencies": "npm install",
-    "buildProduction": "npm run clean && npm run webpackProduction",
+    "buildProduction": "npm run webpackProduction",
     "startProduction": "npm run buildProduction",
-    "build": "npm run clean && npm run watch",
-    "watch": "webpack --watch --progress --config ./development.js --mode development",
-    "webpackProduction": "webpack --progress --config ./production.js --mode production"
+    "webpackProduction": "webpack --progress --config ./production.js --mode production",
+    "build": "webpack --mode production"
   },
   "name": "projekt",
   "private": true,
