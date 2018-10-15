@@ -84,13 +84,12 @@ Vue.component('modal', {
   template: '#modal-template'
 });
 
-const app = new Vue({
-    el: domElement,
-    render: h => h('ssfcrud')
-  })
 
 
-new Vue({
+new Vue({render: function() {
+
+
+
   el: '#ssfcrud',
   data: {
     list: list,
@@ -259,6 +258,4 @@ new Vue({
 });
 
 
-
-})
-
+ }}).$mount(document.getElementByID('app'))
