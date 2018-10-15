@@ -93,7 +93,7 @@ new Vue({render: function() {
   el: '#ssfcrud',
   data; {
     list: list,
-    item: {},
+    item; {},
     checkedList: [],
     filterToggle: false,
     filterByName: [],
