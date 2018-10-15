@@ -60,6 +60,5 @@ production:
 
   # Production depends on precompilation of packs prior to booting for performance.
   compile: true
-
   # Cache manifest.json for performance
   cache_manifest: true
