@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const el = document.body.appendChild(document.createElement('hello'))
 const app = new Vue({
     el: domElement,
-    render: h => h(App)
+    render: h => h(RootComponent)
+    
   })
 
   console.log(app)
