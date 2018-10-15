@@ -5,6 +5,9 @@ import VueResource from 'vue-resource'
 Vue.use(VueResource)
 
 document.addEventListener('turbolinks:load', () => {
+
+const app = new Vue(Vue.util.extend({ i18n }, App)).$mount('#ssfcrud')
+  
 var list = [
   {
     id: 1,
@@ -86,14 +89,12 @@ Vue.component('modal', {
 
 
 
-new Vue({render: function() {
 
-
-
+new Vue({
   el: '#ssfcrud',
-  data; {
+  data: {
     list: list,
-    item; {},
+    item: {},
     checkedList: [],
     filterToggle: false,
     filterByName: [],
@@ -258,4 +259,6 @@ new Vue({render: function() {
 });
 
 
- }}).$mount(document.getElementByID('app'))
+
+})
+
