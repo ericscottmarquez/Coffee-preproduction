@@ -57,21 +57,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
 body {
   font: 400 14px/1.5 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   color: #333;
@@ -108,9 +93,8 @@ img {
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
 }
-[v-cloak] {
-  display: none;
-}
+
+
 /*modal component style*/
 .modal-mask {
   position: fixed;
