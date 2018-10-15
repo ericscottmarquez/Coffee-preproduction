@@ -86,7 +86,7 @@ Vue.component('modal', {
 
 const app = new Vue({
     el: domElement,
-    render: h => h('#ssfcrud')
+    render: h => h('ssfcrud')
   })
 
 
