@@ -8,7 +8,7 @@
 // layout file, like app/views/layouts/application.html.erb
 
 
-import Vue from 'vue/dist/vue.esm'
+import Vue from 'vue'
 import VueResource from 'vue-resource'
 
 
