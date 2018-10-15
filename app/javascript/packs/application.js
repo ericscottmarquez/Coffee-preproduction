@@ -8,7 +8,7 @@
 // layout file, like app/views/layouts/application.html.erb
 
 
-import Vue from 'vue/dist/vue.esm'
+import Vue from 'vue/dist/vue.min.js'
 import TurbolinksAdapter from 'vue-turbolinks'
 import VueResource from 'vue-resource'
 import App from '../app.vue'
