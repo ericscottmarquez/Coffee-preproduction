@@ -5,7 +5,7 @@
   },
   "scripts": {
     "webpack:deploy": "webpack --config=config/webpack/production.js -p",
-    "build": "webpack --mode production",
+    "build": "node scripts/build.js",
     "heroku-postbuild": "npm run webpack:deploy"
   },
   "name": "projekt",
