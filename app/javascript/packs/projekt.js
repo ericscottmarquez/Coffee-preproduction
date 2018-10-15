@@ -90,8 +90,6 @@ const app = new Vue({
   })
 
 
-new Vue({render: function() {... } }).$mount(document.getElementById('app'))
-
 new Vue({
   el: '#ssfcrud',
   data: {
