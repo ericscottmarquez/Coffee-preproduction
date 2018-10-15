@@ -8,14 +8,15 @@
 // layout file, like app/views/layouts/application.html.erb
 
 
-import Vue from 'vue/dist/vue.min.js'
-import TurbolinksAdapter from 'vue-turbolinks'
+import Vue from 'vue/dist/vue.esm'
 import VueResource from 'vue-resource'
-import App from '../app.vue'
+
 
 Vue.use(VueResource)
 
-document.addEventListener('turbolinks:load', () => {
+
+
+document.addEventListener('DOMContentLoaded', () => {
 
 
 
