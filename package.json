@@ -3,10 +3,6 @@
     "node": "10.12.0",
     "npm": "6.4.1"
   },
-//  "scripts": {
-//    "start": "node server.js",
-//    "build": "webpack --mode production"
-//  },
   "scripts": {
     "setup": "npm run installDependencies",
     "start": "webpack-dev-server --progress --open --watch --config ./production.js --mode development",
@@ -14,10 +10,8 @@
     "buildProduction": "npm run clean && npm run webpackProduction",
     "startProduction": "npm run buildProduction",
     "build": "npm run clean && npm run watch",
-    // "clean": "rm -fr static/dist/",
     "watch": "webpack --watch --progress --config ./development.js --mode development",
-    "webpackProduction": "webpack --progress --config ./production.js --mode production",
-    //"webpack": "webpack --progress --config ./webpack.deve.config.js"
+    "webpackProduction": "webpack --progress --config ./production.js --mode production"
   },
   "name": "projekt",
   "private": true,

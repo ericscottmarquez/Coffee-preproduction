@@ -3,7 +3,7 @@ Rails.application.configure do
   config.webpacker.check_yarn_integrity = false
   # Settings specified here will take precedence over those in config/application.rb.
 
-  #SERVE PUBLIS ASSETS??? GOIND NUTS TRYING TO PUT THIS IN PRODUCTION MODE#
+  #SERVE PUBLIC ASSETS??? GOING NUTS TRYING TO PUT THIS IN PRODUCTION MODE#
   config.public_file_server.enabled configures = true
 
   # Code is not reloaded between requests.
@@ -25,7 +25,7 @@ Rails.application.configure do
 
   # Disable serving static files from the `/public` folder by default since
   # Apache or NGINX already handles this.
-  config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
+  # config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
 
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = Uglifier.new(:harmony => true)
