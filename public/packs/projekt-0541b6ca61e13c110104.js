@@ -60,30 +60,22 @@
 /******/ 	__webpack_require__.p = "/packs/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */,
-/* 1 */
-/*!*********************************************!*\
-  !*** ./app/javascript/packs/application.js ***!
-  \*********************************************/
+/******/ ({
+
+/***/ 2:
+/*!*****************************************!*\
+  !*** ./app/javascript/packs/projekt.js ***!
+  \*****************************************/
 /*! dynamic exports provided */
 /*! all exports used */
 /***/ (function(module, exports) {
 
-/* eslint no-console:0 */
-// This file is automatically compiled by Webpack, along with any other files
-// present in this directory. You're encouraged to place your actual application logic in
-// a relevant structure within app/javascript and only use these pack files to reference
-// that code so it'll be compiled.
-//
-// To reference this file, add <%= javascript_pack_tag 'application' %> to the appropriate
-// layout file, like app/views/layouts/application.html.erb
-
-console.log('Hello World from Webpacker');
+throw new Error("Module build failed: SyntaxError: Unexpected character '#' (90:19)\n\n  88 | new Vue({\n  89 |   el: domElement,\n> 90 |     render: h => h(#ssfcrud),\n     |                    ^\n  91 |   data: {\n  92 |     list: list,\n  93 |     item: {},\n");
 
 /***/ })
-/******/ ]);
-//# sourceMappingURL=application-a6c1b44dbdb9e8dcc6b0.js.map
+
+/******/ });
+//# sourceMappingURL=projekt-0541b6ca61e13c110104.js.map

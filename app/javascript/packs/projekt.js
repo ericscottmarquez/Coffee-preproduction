@@ -1,4 +1,4 @@
-import Vue from 'vue/dist/vue.min.js'
+import Vue from 'vue'
 import TurbolinksAdapter from 'vue-turbolinks'
 import VueResource from 'vue-resource'
 
@@ -83,6 +83,11 @@ var list = [
 Vue.component('modal', {
   template: '#modal-template'
 });
+
+const app = new Vue({
+    el: domElement,
+    render: h => h(RootComponent)
+  })
 
 new Vue({
   el: '#ssfcrud',
