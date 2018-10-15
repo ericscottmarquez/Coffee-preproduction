@@ -9,8 +9,3 @@
 
 console.log('Hello World from Webpacker')
 
-
-const app = new Vue({
-    el: domElement,
-    render: h => h(RootComponent)
-  })
