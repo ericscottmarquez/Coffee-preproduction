@@ -91,7 +91,7 @@ new Vue({render: function() {
 
 
   el: '#ssfcrud',
-  data: {
+  data; {
     list: list,
     item: {},
     checkedList: [],
