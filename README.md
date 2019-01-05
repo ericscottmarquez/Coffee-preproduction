@@ -1,6 +1,6 @@
 # README
 
-rails app
+rails project management app
 
 heroku complilation is not finished currently having css conflicts on button colors and page styling.
 
